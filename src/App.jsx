@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import Cards from "./components/Cards";
 import Background from "./components/Background";
 
-import Projects from "./pages/Projects";
+import Projects from "./pages/projects";
 import Experience from "./pages/Experience";
 import TechStack from "./pages/TechStack";
 import Publications from "./pages/Publications";

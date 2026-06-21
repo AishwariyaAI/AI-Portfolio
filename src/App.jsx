@@ -21,18 +21,29 @@ import {
 /* HOME PAGE */
 function Home() {
   return (
-    <>
+    <div className="relative min-h-screen">
+
       <Background />
+
       <Navbar />
+
       <Hero />
-      
+
       <MyWork />
+
       <Cards />
 
-
-      {/* ✅ RESUME SECTION (BUTTON ONLY) */}
-      <div style={{ textAlign: "center", marginTop: "40px", paddingBottom: "60px" }}>
-        <h2 style={{ color: "#fff" }}>My Resume</h2>
+      {/* Resume Section */}
+      <div
+        style={{
+          textAlign: "center",
+          marginTop: "40px",
+          paddingBottom: "60px",
+        }}
+      >
+        <h2 style={{ color: "#0f172a" }}>
+          My Resume
+        </h2>
 
         <a
           href="/Aishwariya_A_AIML_Resume.pdf"
@@ -44,7 +55,7 @@ function Home() {
             display: "inline-block",
             padding: "12px 20px",
             background: "#3b82f6",
-            color: "#fff",
+            color: "#ffffff",
             borderRadius: "8px",
             textDecoration: "none",
           }}
@@ -52,7 +63,8 @@ function Home() {
           Download Resume
         </a>
       </div>
-    </>
+
+    </div>
   );
 }
 
@@ -60,19 +72,51 @@ function Home() {
 function App() {
   return (
     <BrowserRouter>
+
       <Routes>
 
-        <Route path="/" element={<Home />} />
+        <Route
+          path="/"
+          element={<Home />}
+        />
 
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/techstack" element={<TechStack />} />
-        <Route path="/publications" element={<Publications />} />
-        <Route path="/certifications" element={<Certifications />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route
+          path="/projects"
+          element={<Projects />}
+        />
+
+        <Route
+          path="/experience"
+          element={<Experience />}
+        />
+
+        <Route
+          path="/techstack"
+          element={<TechStack />}
+        />
+
+        <Route
+          path="/publications"
+          element={<Publications />}
+        />
+
+        <Route
+          path="/certifications"
+          element={<Certifications />}
+        />
+
+        <Route
+          path="/blog"
+          element={<Blog />}
+        />
+
+        <Route
+          path="/contact"
+          element={<Contact />}
+        />
 
       </Routes>
+
     </BrowserRouter>
   );
 }

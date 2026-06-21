@@ -7,7 +7,8 @@ const Background = () => {
 
   useEffect(() => {
     const initParticles = async () => {
-      await loadSlim(window.tsParticles);
+      const { tsParticles } = await import("@tsparticles/engine");
+      await loadSlim(tsParticles);
       setInit(true);
     };
 
@@ -17,20 +18,19 @@ const Background = () => {
   if (!init) return null;
 
   return (
-    <div className="absolute inset-0 -z-10 overflow-hidden bg-[#f8fafc]">
-      {/* Gradient Glow */}
-      <div className="absolute top-[-200px] left-[-100px] w-[500px] h-[500px] bg-blue-400 opacity-20 blur-[140px] rounded-full"></div>
+    <div className="fixed inset-0 -z-10">
 
-      <div className="absolute top-[200px] right-[-100px] w-[500px] h-[500px] bg-cyan-300 opacity-20 blur-[140px] rounded-full"></div>
-
-      <div className="absolute bottom-[-200px] left-[30%] w-[500px] h-[500px] bg-emerald-300 opacity-20 blur-[140px] rounded-full"></div>
-
-      {/* Neural Network */}
       <Particles
-        className="absolute inset-0"
+        id="tsparticles"
         options={{
+          fullScreen: {
+            enable: false,
+          },
+
           background: {
-            color: "transparent",
+            color: {
+              value: "#f8fafc",
+            },
           },
 
           fpsLimit: 60,
@@ -41,14 +41,12 @@ const Background = () => {
                 enable: true,
                 mode: "grab",
               },
-
               resize: true,
             },
 
             modes: {
               grab: {
                 distance: 180,
-
                 links: {
                   opacity: 1,
                 },
@@ -58,35 +56,32 @@ const Background = () => {
 
           particles: {
             color: {
-              value: "#94a3b8",
+              value: "#60a5fa",
             },
 
             links: {
-              color: "#94a3b8",
+              color: "#93c5fd",
               distance: 150,
               enable: true,
-              opacity: 0.3,
+              opacity: 0.35,
               width: 1,
             },
 
             move: {
-              direction: "none",
               enable: true,
-
+              speed: 1,
+              direction: "none",
+              random: false,
+              straight: false,
               outModes: {
                 default: "bounce",
               },
-
-              random: false,
-              speed: 1,
-              straight: false,
             },
 
             number: {
               density: {
                 enable: true,
               },
-
               value: 80,
             },
 
@@ -99,13 +94,25 @@ const Background = () => {
             },
 
             size: {
-              value: { min: 1, max: 4 },
+              value: {
+                min: 1,
+                max: 4,
+              },
             },
           },
 
           detectRetina: true,
         }}
       />
+
+      {/* Glow Effects */}
+
+      <div className="absolute top-[-200px] left-[-100px] w-[500px] h-[500px] bg-blue-400 opacity-20 blur-[140px] rounded-full"></div>
+
+      <div className="absolute top-[200px] right-[-100px] w-[500px] h-[500px] bg-cyan-300 opacity-20 blur-[140px] rounded-full"></div>
+
+      <div className="absolute bottom-[-200px] left-[30%] w-[500px] h-[500px] bg-emerald-300 opacity-20 blur-[140px] rounded-full"></div>
+
     </div>
   );
 };

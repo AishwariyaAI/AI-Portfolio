@@ -18,7 +18,6 @@ import {
   Route,
 } from "react-router-dom";
 
-/* HOME PAGE */
 function Home() {
   return (
     <div className="relative min-h-screen">
@@ -33,87 +32,31 @@ function Home() {
 
       <Cards />
 
-      {/* Resume Section */}
-      <div
-        style={{
-          textAlign: "center",
-          marginTop: "40px",
-          paddingBottom: "60px",
-        }}
-      >
-        <h2 style={{ color: "#0f172a" }}>
-          My Resume
-        </h2>
-
-        <a
-          href="/Aishwariya_A_AIML_Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-          style={{
-            marginTop: "15px",
-            display: "inline-block",
-            padding: "12px 20px",
-            background: "#3b82f6",
-            color: "#ffffff",
-            borderRadius: "8px",
-            textDecoration: "none",
-          }}
-        >
-          Download Resume
-        </a>
-      </div>
-
     </div>
   );
 }
 
-/* APP ROUTER */
 function App() {
   return (
     <BrowserRouter>
 
       <Routes>
 
-        <Route
-          path="/"
-          element={<Home />}
-        />
+        <Route path="/" element={<Home />} />
 
-        <Route
-          path="/projects"
-          element={<Projects />}
-        />
+        <Route path="/projects" element={<Projects />} />
 
-        <Route
-          path="/experience"
-          element={<Experience />}
-        />
+        <Route path="/experience" element={<Experience />} />
 
-        <Route
-          path="/techstack"
-          element={<TechStack />}
-        />
+        <Route path="/techstack" element={<TechStack />} />
 
-        <Route
-          path="/publications"
-          element={<Publications />}
-        />
+        <Route path="/publications" element={<Publications />} />
 
-        <Route
-          path="/certifications"
-          element={<Certifications />}
-        />
+        <Route path="/certifications" element={<Certifications />} />
 
-        <Route
-          path="/blog"
-          element={<Blog />}
-        />
+        <Route path="/blog" element={<Blog />} />
 
-        <Route
-          path="/contact"
-          element={<Contact />}
-        />
+        <Route path="/contact" element={<Contact />} />
 
       </Routes>
 

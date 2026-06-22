@@ -17,7 +17,7 @@ export default function ResumeSection() {
       </p>
 
       <a
-        href="/resume.pdf"
+        href="/Aishwariya_A_AIML_Resume.Pdf"
         download
         style={{
           marginTop: "25px",

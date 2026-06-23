@@ -3,7 +3,7 @@ const projects = [
     title: "AI Incident Investigation Agent",
     tech: "FastAPI, Python, Machine Learning, NASA Dataset, Streamlit, SQLite",
     desc: "End-to-end AI incident monitoring platform with anomaly detection, severity prediction, root cause analysis, JWT authentication and live monitoring dashboard.",
-    status: "🚧 Work in Progress",
+    status: "✅ Completed",
     github: "https://github.com/AishwariyaAI/AI-Incident-Investigation-Agent",
   },
 
@@ -11,7 +11,7 @@ const projects = [
     title: "AI Medical Assistant RAG",
     tech: "LangChain, FAISS, HuggingFace, LLMs, Streamlit",
     desc: "Healthcare RAG application using document embeddings, semantic search and intelligent medical question answering.",
-    status: "📌 Ongoing Improvements",
+    status: "📈 Actively Being Developed",
     github: "https://github.com/AishwariyaAI/AI-Medical-Assistant-RAG",
   },
 
@@ -19,7 +19,7 @@ const projects = [
     title: "Customer Retention Advisor",
     tech: "Python, Scikit-Learn, Pandas, Streamlit",
     desc: "Machine learning solution for customer churn prediction with complete ML lifecycle and business insights.",
-    status: "✅ Completed",
+    status: "💡Ongoing Development",
     github: "https://github.com/AishwariyaAI/Customer-Retention-Advisor",
   },
 

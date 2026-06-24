@@ -8,6 +8,14 @@ const projects = [
   },
 
   {
+    title: "CryptoWatch - Real-Time Market Sentiment Tracker",
+    tech: "Python • Streamlit • NewsAPI • Hugging Face Transformers • Groq LLM • NLP • Sentiment Analysis • Plotly • yFinance • Pandas • Data Visualization",
+    desc: "AI-powered cryptocurrency intelligence platform that analyzes real-time crypto news using NLP sentiment analysis, Fear & Greed Index tracking, Bitcoin/Ethereum market monitoring, AI-generated market summaries using Groq LLM, interactive visualizations, and trading recommendations.",
+    status: "✅ Completed",
+    github: "https://github.com/AishwariyaAI/CryptoWatch-Real-Time-Market-Sentiment-Tracker",
+  },
+
+  {
     title: "AI Medical Assistant RAG",
     tech: "LangChain, FAISS, HuggingFace, LLMs, Streamlit",
     desc: "Healthcare RAG application using document embeddings, semantic search and intelligent medical question answering.",

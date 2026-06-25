@@ -1,3 +1,4 @@
+import profile from "../assets/Aishwariya.png";
 const Navbar = () => {
 
   const scrollToSection = (id) => {
@@ -11,9 +12,10 @@ const Navbar = () => {
 
         {/* Logo */}
         <img
-          src="https://i.pravatar.cc/100"
-          className="w-12 h-12 rounded-full"
-        />
+    src={profile}
+    alt="Aishwariya"
+    className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-md"
+/>
 
         {/* Nav Links */}
         <div className="flex gap-8 text-slate-700 font-medium">

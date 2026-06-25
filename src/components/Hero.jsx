@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FiArrowRight } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
-
+import hero from "../assets/Aishwariya.png";
 const Hero = () => {
   return (
     <section
@@ -19,6 +19,13 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className="relative z-20 text-center max-w-6xl"
       >
+        <div className="flex justify-center mb-8">
+  <img
+    src={hero}
+    alt="Aishwariya"
+    className="w-40 h-40 rounded-full object-cover border-4 border-white shadow-2xl"
+  />
+</div>
         {/* Internship Box */}
         <div className="flex justify-center mb-10">
           <div className="flex items-center gap-4 px-8 py-4 rounded-full border border-slate-200 bg-white shadow-xl">

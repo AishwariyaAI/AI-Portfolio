@@ -8,9 +8,18 @@ const projects = [
   },
 
   {
+    title: "🤖 DataGenie – AI-Powered Natural Language Analytics Platform",
+    tech: "Python • LangChain • Groq LLM • Pandas • Plotly • Streamlit • AI • Data Analytics",
+    desc: "Developed an AI-powered analytics platform using LangChain, Groq LLM, Pandas, Plotly, and Streamlit. Supports natural language querying, dynamic CSV uploads, AI-generated Pandas queries, interactive visualizations, business insights, data quality analysis, and executive dashboard reporting.",
+    status: "✅ Completed",
+    github: "https://github.com/AishwariyaAI/DataGenie-AI-Analytics-Platform",
+  },
+
+
+  {
     title: "CryptoWatch - Real-Time Market Sentiment Tracker",
     tech: "Python • Streamlit • NewsAPI • Hugging Face Transformers • Groq LLM • NLP • Sentiment Analysis • Plotly • yFinance • Pandas • Data Visualization",
-    desc: "AI-powered cryptocurrency intelligence platform that analyzes real-time crypto news using NLP sentiment analysis, Fear & Greed Index tracking, Bitcoin/Ethereum market monitoring, AI-generated market summaries using Groq LLM, interactive visualizations, and trading recommendations.",
+    desc:  "AI-powered cryptocurrency intelligence platform that analyzes real-time crypto news using NLP sentiment analysis, Fear & Greed Index tracking, Bitcoin/Ethereum market monitoring, AI-generated market summaries using Groq LLM, interactive visualizations, and trading recommendations.",
     status: "✅ Completed",
     github: "https://github.com/AishwariyaAI/CryptoWatch-Real-Time-Market-Sentiment-Tracker",
   },

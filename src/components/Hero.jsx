@@ -37,10 +37,10 @@ const Hero = () => {
 
             <p className="text-lg md:text-xl font-medium text-slate-700">
               Currently a
-              <span className="text-blue-600 font-bold mx-2">GenAI Intern</span>
+              <span className="text-blue-600 font-bold mx-2">AI Engineer Intern</span>
               at
               <span className="text-slate-900 font-bold ml-2">
-                Evolve Robot Lab
+                Datagen Systems Private Limited
               </span>
             </p>
           </div>

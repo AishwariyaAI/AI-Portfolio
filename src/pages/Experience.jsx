@@ -29,8 +29,8 @@ export default function Experience() {
         }}
       >
         Building expertise in Artificial Intelligence, Machine Learning,
-        Generative AI, and Intelligent Systems through internships,
-        academic projects, and continuous learning.
+        Generative AI, Linux, Databases, and Intelligent Systems through
+        internships, academic projects, and continuous learning.
       </p>
 
       <div
@@ -42,7 +42,7 @@ export default function Experience() {
           gap: "30px",
         }}
       >
-        {/* Internship */}
+        {/* Current Internship */}
         <div
           style={{
             background: "#111827",
@@ -58,7 +58,7 @@ export default function Experience() {
               marginBottom: "10px",
             }}
           >
-            🤖 Generative AI Intern
+            🚀 AI Engineer Intern
           </h3>
 
           <p
@@ -67,7 +67,7 @@ export default function Experience() {
               marginBottom: "20px",
             }}
           >
-            Evolve Robot Lab, Chennai | Present
+            DataGen Systems Private Limited | Present
           </p>
 
           <ul
@@ -77,32 +77,97 @@ export default function Experience() {
             }}
           >
             <li>
-              Working on real-world Generative AI applications using
-              Large Language Models (LLMs).
+              Developing AI-powered applications using Python, Linux, SQL, and
+              modern AI technologies.
             </li>
 
             <li>
-              Designing Retrieval-Augmented Generation (RAG)
-              pipelines for intelligent information retrieval.
+              Learning Linux system administration, user management, shell
+              scripting, and database concepts for enterprise environments.
             </li>
 
             <li>
-              Exploring AI Agents, LangChain, Prompt Engineering,
-              and advanced AI workflows.
+              Working with AI/ML workflows, backend development, and intelligent
+              automation solutions.
             </li>
 
             <li>
-              Building FastAPI-based AI applications and integrating
-              AI models into scalable systems.
+              Collaborating with the engineering team to build scalable,
+              production-ready AI applications.
             </li>
 
             <li>
-              Collaborating on practical AI solutions for
-              automation and intelligent decision-making.
+              Continuously improving software development, problem-solving, and
+              deployment skills.
             </li>
           </ul>
 
           <div style={{ marginTop: "20px", color: "#60a5fa" }}>
+            Technologies: Python • Linux • SQL • AI/ML • FastAPI • Git
+          </div>
+        </div>
+
+        {/* Previous Internship */}
+        <div
+          style={{
+            background: "#111827",
+            padding: "30px",
+            borderRadius: "16px",
+            border: "1px solid #1e293b",
+          }}
+        >
+          <h3
+            style={{
+              color: "#a78bfa",
+              fontSize: "1.8rem",
+              marginBottom: "10px",
+            }}
+          >
+            🤖 Generative AI Intern
+          </h3>
+
+          <p
+            style={{
+              color: "#cbd5e1",
+              marginBottom: "20px",
+            }}
+          >
+            Evolve Robot Lab, Chennai | Completed
+          </p>
+
+          <ul
+            style={{
+              lineHeight: "1.8",
+              color: "#e2e8f0",
+            }}
+          >
+            <li>
+              Developed Generative AI applications using Large Language Models
+              (LLMs).
+            </li>
+
+            <li>
+              Designed Retrieval-Augmented Generation (RAG) pipelines for
+              intelligent information retrieval.
+            </li>
+
+            <li>
+              Worked with LangChain, Prompt Engineering, AI Agents, and LLM
+              workflows.
+            </li>
+
+            <li>
+              Built FastAPI-based AI applications and integrated AI models into
+              scalable systems.
+            </li>
+
+            <li>
+              Contributed to practical AI solutions for automation and
+              intelligent decision-making.
+            </li>
+          </ul>
+
+          <div style={{ marginTop: "20px", color: "#a78bfa" }}>
             Technologies: Python • FastAPI • LLMs • RAG • LangChain • AI Agents
           </div>
         </div>
@@ -142,30 +207,29 @@ export default function Experience() {
             }}
           >
             <li>
-              Developing strong foundations in Robotics,
-              Automation Systems, Artificial Intelligence,
-              and Intelligent Control Systems.
+              Building strong foundations in Robotics, Automation Systems,
+              Artificial Intelligence, and Intelligent Control Systems.
             </li>
 
             <li>
-              Built multiple AI/ML projects including
-              Predictive Maintenance, RAG Applications,
-              AI Assistants, and Monitoring Systems.
+              Developed AI/ML projects including Predictive Maintenance, RAG
+              Applications, AI Assistants, CryptoWatch, and DataGenie.
             </li>
 
             <li>
-              Exploring Deep Learning, Computer Vision,
-              Machine Learning, and Generative AI.
+              Exploring Deep Learning, Machine Learning, NLP, Computer Vision,
+              and Generative AI.
             </li>
 
             <li>
-              Applying software engineering principles
-              to develop real-world AI solutions.
+              Applying software engineering principles to develop real-world AI
+              solutions.
             </li>
           </ul>
 
           <div style={{ marginTop: "20px", color: "#34d399" }}>
-            Focus Areas: AI • Machine Learning • Robotics • Automation • Data Science
+            Focus Areas: AI • Machine Learning • Robotics • Automation • Data
+            Science
           </div>
         </div>
       </div>
